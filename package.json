@@ -4,7 +4,8 @@
   "description": "e2e tests for PCX",
   "scripts": {
     "format": "npx prettier --write .",
-    "smoke": "npx cypress run --env grepTags='@smoke'"
+    "smoke": "npx cypress run --env grepTags='@smoke'",
+    "cypress:dashboard": "npx cypress run --record --key d31756cb-7c71-48c3-b9de-63d8b07a3c50"
   },
   "keywords": [],
   "author": "DeepakR",

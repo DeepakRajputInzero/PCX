@@ -28,7 +28,3 @@ export default defineConfig({
   viewportWidth: 1920,
 });
 
-module.exports = {
-  projectId: "5x9wno",
-  // The rest of the Cypress config options go here...
-}
