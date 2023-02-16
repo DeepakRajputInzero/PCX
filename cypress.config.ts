@@ -15,7 +15,7 @@ export default defineConfig({
     },
     specPattern: "cypress/tests/**/*.spec.ts",
   },
-  projectId: '1xdgs9',
+  projectId: '5x9wno',
   retries: {
     runMode: 2,
     openMode: 0,
@@ -27,3 +27,8 @@ export default defineConfig({
   viewportHeight: 1080,
   viewportWidth: 1920,
 });
+
+module.exports = {
+  projectId: "5x9wno",
+  // The rest of the Cypress config options go here...
+}
