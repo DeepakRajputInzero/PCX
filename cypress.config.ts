@@ -13,7 +13,7 @@ export default defineConfig({
       require("@cypress/grep/src/plugin")(config);
       return config;
     },
-    specPattern: "cypress/tests/**/*.spec.ts",
+    specPattern: "cypress/e2e/**/*.spec.ts",
   },
   projectId: '5x9wno',
   retries: {
